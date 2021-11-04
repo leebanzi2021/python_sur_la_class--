@@ -1,0 +1,38 @@
+list dans python 
+arr=[]
+arr.append(1)
+arr.append(2)
+arr.append(3)
+for i in range(len(arr)):
+	print(arr[i])
+String dans python (tham chieu )
+str = "hello world "
+result = ""
+for  i in  range(len(str)):
+	if  i %2 == 0:
+		result += '-'
+	else :
+		result += str[i]
+print("result :"+ result )
+sort dans python 
+arr = [3,2,1]
+arr = sorted(arr)
+print(arr)
+linked list dans python:
+from  tying  import list 
+class  ListNode(oject):
+	def _init(selt, val== 0 , next =Nome ):
+		self.val = val 
+		self.next = next 
+if _name_=="_mai_":
+n1 = listNode(1)
+	n2 = LiseNode(2)
+	n3 = LiseNode(3)
+	n1.next = n2 
+	n2.next = n3
+	prin("linkedlist:")
+pHead = n1 
+while PHead !=Node:
+	print pHead != None :
+	print(phead.val)
+	pHead = pHead.next 
